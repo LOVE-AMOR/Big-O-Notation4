@@ -1,6 +1,6 @@
-const productList = ["Shoes", "Shirt", "Hat", "Bag"]; // Corrected array initialization
+const productList = ["Shoes", "Shirt", "Hat", "Bag"]; 
 
-const findProductPairs = (products) => {  // Corrected function declaration
+const findProductPairs = (products) => { 
   const pairs = []; 
   for (let i = 0; i < products.length; i++) {  
     for (let j = i + 1; j < products.length; j++) {  
